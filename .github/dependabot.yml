@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Reemplaza "npm" con el ecosistema de paquetes que usas, como "npm", "pip", "maven", etc.
+    directory: "/" # Ubicación de los archivos de manifiesto de paquetes, por ejemplo, "/src/" si están en un subdirectorio
+    schedule:
+      interval: "weekly" # Programa de actualización, puede ser "daily", "weekly", o "monthly"
